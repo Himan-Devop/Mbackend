@@ -13,8 +13,7 @@ variable "db_password" {
 # PROVIDER
 # ----------------------------------------
 provider "aws" {
-  region = var.region
-
+  region     = var.region
 }
 
 # ----------------------------------------
