@@ -13,9 +13,8 @@ variable "db_password" {
 # PROVIDER
 # ----------------------------------------
 provider "aws" {
-  region     = var.region
-  access_key = "AKIASQHJGJM4ASKAZ2MP"
-  secret_key = "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"
+  region = var.region
+
 }
 
 # ----------------------------------------
